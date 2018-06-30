@@ -1,0 +1,31 @@
+<!--<div class="ui top ribbon label">Announcement</div>-->
+<!--<app-content-editor></app-content-editor>-->
+<div class="ui large feed">
+  <div class="event">
+    <div class="label">
+      <a><i class="announcement icon"></i></a>
+    </div>
+    <div class="content">
+      <div class="summary">
+        <a>
+          Announcement
+        </a> pay attention, please!
+        <span class="date">
+          {{content.lastUpdated}} secs go
+        </span>
+      </div>
+      <h2 class="ui teal sub header">
+        <b>{{content.title}}</b>
+      </h2>
+      <div class="description">
+        {{content.text}}
+      </div>
+      <div class="meta">Submitted by:
+        <a class="item">
+          <i class="spy icon"></i>
+          {{content.user.authUser.username}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

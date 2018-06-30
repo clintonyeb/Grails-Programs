@@ -1,0 +1,5 @@
+<app-side-header [user]="user"></app-side-header>
+<app-search-box></app-search-box>
+<div *ngFor="let item of menuItems">
+  <app-side-menu [menu]="item"></app-side-menu>
+</div>

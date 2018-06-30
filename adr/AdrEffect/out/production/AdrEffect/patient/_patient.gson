@@ -1,0 +1,5 @@
+model {
+	Patient patient
+}
+
+json g.render(patient)

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/clinton/.android/build-cache/f93f0e430402db1dcdfec30cdc13d7ac8528b6bf/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v23/abc_btn_colored_text_material.xml"
+    }
+]

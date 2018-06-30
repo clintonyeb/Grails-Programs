@@ -1,0 +1,47 @@
+<div class="root">
+  <div class="ui middle aligned center aligned grid">
+    <div class="column">
+      <div class="ui teal image header">
+        <img src="../../assets/images/male-avatar-medium.png" class="image">
+        <div class="content">
+          KIIT University Social Network
+          <div class="sub header">
+            Log-in to your account
+          </div>
+        </div>
+      </div>
+
+      <form class="ui large form" [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)"
+            [ngClass]="formClasses()">
+
+        <div class="ui stacked segment">
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" id="username" placeholder="Roll number or nickname" [formControl]="username">
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input type="password" id="password" placeholder="Password" [formControl]="password">
+            </div>
+          </div>
+
+          <button type="submit" class="ui fluid large teal submit button" >Login</button>
+
+        </div>
+
+       <!-- <div *ngIf="success" class="ui success message">Login success</div>
+        <div *ngIf="errors" class="ui error message">Invalid username and password</div>
+        <div *ngIf="unknownError" class="ui error message">Unknown error has occured</div>-->
+      </form>
+
+      <div class="ui message">
+        New to us? <a href="/signup" (click)="onSignUpClicked()"> Sign Up</a>
+      </div>
+    </div>
+  </div>
+
+</div>

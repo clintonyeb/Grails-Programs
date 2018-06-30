@@ -1,0 +1,50 @@
+<div class="ui segment container">
+  <div class="ui small feed">
+    <div class="event">
+      <div class="label">
+        <a><img src="../../../assets/images/male-avatar-tiny.png"></a>
+      </div>
+      <div class="content">
+        <div class="summary">
+          <a class="user">
+            {{tweet.user.authUser.username}}
+          </a> said something
+        </div>
+        <div class="extra text">
+          {{tweet.text}}
+        </div>
+        <div *ngFor="let avatar of tweet.avatars" class="extra images">
+          <a><img src="../../../assets/images/male-avatar-tiny.png"></a>
+        </div>
+        <div class="meta">
+          <a class="like">
+            <i class="thumbs up icon"></i> {{tweet.vote.upVotes}} Likes
+          </a>
+          <a class="like">
+            <i class="thumbs down icon"></i>{{tweet.vote.downVotes}} DisLikes
+          </a>
+          <span class="date">
+                    {{tweet.lastUpdated}}
+                </span>
+          <div class="ui floating right left inline pointing dropdown">
+            <i class="dropdown icon"></i>
+            <div class="right menu">
+              <a class="item">
+                <i class="edit icon"></i>
+                Edit
+              </a>
+              <a class="item">
+                <i class="remove icon"></i>
+                Remove
+              </a>
+              <a class="item">
+                <i class="legal icon"></i>
+                Report
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

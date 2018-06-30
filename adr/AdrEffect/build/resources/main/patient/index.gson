@@ -1,0 +1,6 @@
+model {
+	Iterable<Patient> patientList
+}
+
+json tmpl.patient(patientList ?: [])
+

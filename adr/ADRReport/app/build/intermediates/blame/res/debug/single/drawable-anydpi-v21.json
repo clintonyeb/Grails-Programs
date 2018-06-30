@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml",
+        "source": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/clinton/.android/build-cache/f93f0e430402db1dcdfec30cdc13d7ac8528b6bf/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/clinton/.android/build-cache/f93f0e430402db1dcdfec30cdc13d7ac8528b6bf/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

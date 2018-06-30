@@ -1,0 +1,6 @@
+model {
+	Iterable<ImageData> imageDataList
+}
+
+json tmpl.imageData(imageDataList ?: [])
+

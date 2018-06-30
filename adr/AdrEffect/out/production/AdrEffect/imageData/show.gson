@@ -1,0 +1,5 @@
+model {
+	ImageData imageData
+}
+
+json tmpl.imageData(imageData)

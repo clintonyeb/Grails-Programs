@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/clinton/.android/build-cache/f93f0e430402db1dcdfec30cdc13d7ac8528b6bf/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/clinton/.android/build-cache/f93f0e430402db1dcdfec30cdc13d7ac8528b6bf/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

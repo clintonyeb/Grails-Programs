@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

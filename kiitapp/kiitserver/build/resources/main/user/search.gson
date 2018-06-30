@@ -1,0 +1,11 @@
+model{
+    String username
+    String message
+    boolean status
+}
+
+json {
+    username username
+    message message
+    status status
+}

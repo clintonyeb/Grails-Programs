@@ -1,0 +1,14 @@
+<div *ngFor="let content of contents">
+  <div [ngSwitch]="content.contentType">
+    <template [ngSwitchCase]="'announcement'">
+      <app-announcement [content]="content"></app-announcement>
+    </template>
+    <template [ngSwitchCase]="'article'">
+      <app-article [content]="content"></app-article>
+    </template>
+    <template [ngSwitchCase]="'situation'">
+      <app-situation [content]="content"></app-situation>
+    </template>
+  </div>
+</div>
+

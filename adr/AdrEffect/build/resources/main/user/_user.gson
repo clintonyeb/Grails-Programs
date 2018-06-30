@@ -1,0 +1,11 @@
+import com.clinton.User
+
+model {
+    User user
+}
+
+json {
+    username user.username
+    enabled user.enabled
+    mobile user.mobile
+}

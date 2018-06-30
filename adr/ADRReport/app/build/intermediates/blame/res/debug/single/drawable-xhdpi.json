@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_camera.png",
+        "source": "/home/clinton/Projects/Grails/adr/ADRReport/app/src/main/res/drawable-xhdpi/ic_action_camera.png"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_arrow_back_black_24dp.png",
+        "source": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_arrow_back_black_24dp.png"
+    }
+]

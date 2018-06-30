@@ -1,0 +1,6 @@
+#Mon, 09 Jan 2017 03:40:32 +0530
+
+info.app.version=0.1
+info.app.name=kiitserver
+grails.env=development
+info.app.grailsVersion=3.2.4

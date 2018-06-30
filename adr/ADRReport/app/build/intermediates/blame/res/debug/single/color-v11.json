@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/clinton/Projects/Grails/adr/ADRReport/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/clinton/.android/build-cache/e0604547fdb538d2dbc65b53e6e657caa4b8ff35/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,26 @@
+<app-top-bar class="ui top attached  menu" (buttonClicked)="topBarButtonClicked($event)"></app-top-bar>
+<div id="sidecontext">
+
+  <div class="ui large left vertical inline menu sidebar">
+    <app-side-bar
+      [user]="user" [menuItems]="menuItems">
+    </app-side-bar>
+  </div>
+
+  <div class="dimmer pusher">
+
+    <div class="ui bottom attached segment">
+      <div class="ui fixed fluid container">
+
+        <app-modal-login></app-modal-login>
+      </div>
+      <div class="ui text container">
+        <app-content-container [contents]="contents | async"></app-content-container>
+        <!--<div class="five wide column">
+          &lt;!&ndash;<app-tweet-smart [tweets]="tweets | async"></app-tweet-smart>&ndash;&gt;
+        </div>-->
+      </div>
+
+    </div>
+  </div>
+</div>

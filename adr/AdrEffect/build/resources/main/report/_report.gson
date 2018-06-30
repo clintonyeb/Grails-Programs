@@ -1,0 +1,9 @@
+import com.clinton.Report
+
+model {
+    Report report
+}
+
+json {
+    serverId report.id
+}

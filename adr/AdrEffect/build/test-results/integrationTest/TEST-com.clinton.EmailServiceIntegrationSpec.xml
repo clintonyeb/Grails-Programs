@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.EmailServiceIntegrationSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-02-10T22:00:29" hostname="clintonpc" time="39.061">
+  <properties/>
+  <testcase name="test something" classname="com.clinton.EmailServiceIntegrationSpec" time="39.061"/>
+  <system-out><![CDATA[
+Configuring Spring Security Core ...
+... finished configuring Spring Security Core
+
+
+Configuring Spring Security REST 2.0.0.M2...
+... finished configuring Spring Security REST
+
+2017-02-11 03:31:06.917 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Removing old triggers for the AsynchronousMailJob
+2017-02-11 03:31:06.917 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Removing old triggers for the AsynchronousMailJob
+2017-02-11 03:31:06.947 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduling the AsynchronousMailJob with repeat interval 60000ms
+2017-02-11 03:31:06.947 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduling the AsynchronousMailJob with repeat interval 60000ms
+2017-02-11 03:31:06.968 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduled the AsynchronousMailJob with repeat interval 60000ms
+2017-02-11 03:31:06.968 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduled the AsynchronousMailJob with repeat interval 60000ms
+2017-02-11 03:31:06.969 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Removing old triggers for the ExpiredMessagesCollectorJob
+2017-02-11 03:31:06.969 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Removing old triggers for the ExpiredMessagesCollectorJob
+2017-02-11 03:31:06.974 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduling the ExpiredMessagesCollectorJob with repeat interval 607000ms
+2017-02-11 03:31:06.974 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduling the ExpiredMessagesCollectorJob with repeat interval 607000ms
+2017-02-11 03:31:06.981 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduled the ExpiredMessagesCollectorJob with repeat interval 607000ms
+2017-02-11 03:31:06.981 DEBUG --- [    Test worker] g.p.a.AsynchronousMailGrailsPlugin       : Scheduled the ExpiredMessagesCollectorJob with repeat interval 607000ms
+2017-02-11 03:31:07.142 DEBUG --- [eduler_Worker-1] g.p.q.l.SessionBinderJobListener         : Persistence session is opened.
+2017-02-11 03:31:07.142 DEBUG --- [eduler_Worker-1] g.p.q.l.SessionBinderJobListener         : Persistence session is opened.
+2017-02-11 03:31:07.145 TRACE --- [eduler_Worker-1] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Entering execute method.
+2017-02-11 03:31:07.145 TRACE --- [eduler_Worker-1] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Entering execute method.
+2017-02-11 03:31:07.160 DEBUG --- [eduler_Worker-2] g.p.q.l.SessionBinderJobListener         : Persistence session is opened.
+2017-02-11 03:31:07.160 DEBUG --- [eduler_Worker-2] g.p.q.l.SessionBinderJobListener         : Persistence session is opened.
+2017-02-11 03:31:07.163 TRACE --- [eduler_Worker-2] g.a.j.g.p.a.ExpiredMessagesCollectorJob  : Entering execute method.
+2017-02-11 03:31:07.163 TRACE --- [eduler_Worker-2] g.a.j.g.p.a.ExpiredMessagesCollectorJob  : Entering execute method.
+2017-02-11 03:31:07.495 TRACE --- [eduler_Worker-1] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Exiting execute method. Execution time = 347ms
+2017-02-11 03:31:07.495 TRACE --- [eduler_Worker-1] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Exiting execute method. Execution time = 347ms
+2017-02-11 03:31:07.499 DEBUG --- [eduler_Worker-1] g.p.q.l.SessionBinderJobListener         : Persistence session is flushed.
+2017-02-11 03:31:07.499 DEBUG --- [eduler_Worker-1] g.p.q.l.SessionBinderJobListener         : Persistence session is flushed.
+2017-02-11 03:31:07.685 TRACE --- [eduler_Worker-2] g.p.a.AsynchronousMailPersistenceService : 0 expired messages were updated.
+2017-02-11 03:31:07.685 TRACE --- [eduler_Worker-2] g.p.a.AsynchronousMailPersistenceService : 0 expired messages were updated.
+2017-02-11 03:31:07.685 TRACE --- [eduler_Worker-2] g.a.j.g.p.a.ExpiredMessagesCollectorJob  : Exiting execute method.
+2017-02-11 03:31:07.685 TRACE --- [eduler_Worker-2] g.a.j.g.p.a.ExpiredMessagesCollectorJob  : Exiting execute method.
+2017-02-11 03:31:07.686 DEBUG --- [eduler_Worker-2] g.p.q.l.SessionBinderJobListener         : Persistence session is flushed.
+2017-02-11 03:31:07.686 DEBUG --- [eduler_Worker-2] g.p.q.l.SessionBinderJobListener         : Persistence session is flushed.
+Grails application running at http://localhost:39355 in environment: test
+2017-02-11 03:31:08.819 TRACE --- [    Test worker] g.a.s.g.p.a.AsynchronousMailService      : Start send job immediately.
+2017-02-11 03:31:08.819 TRACE --- [    Test worker] g.a.s.g.p.a.AsynchronousMailService      : Start send job immediately.
+2017-02-11 03:31:08.828 DEBUG --- [eduler_Worker-3] g.p.q.l.SessionBinderJobListener         : Persistence session is opened.
+2017-02-11 03:31:08.828 DEBUG --- [eduler_Worker-3] g.p.q.l.SessionBinderJobListener         : Persistence session is opened.
+2017-02-11 03:31:08.829 TRACE --- [eduler_Worker-3] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Entering execute method.
+2017-02-11 03:31:08.829 TRACE --- [eduler_Worker-3] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Entering execute method.
+2017-02-11 03:31:08.836 TRACE --- [eduler_Worker-3] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Exiting execute method. Execution time = 6ms
+2017-02-11 03:31:08.836 TRACE --- [eduler_Worker-3] g.a.j.g.p.asyncmail.AsynchronousMailJob  : Exiting execute method. Execution time = 6ms
+2017-02-11 03:31:08.837 DEBUG --- [eduler_Worker-3] g.p.q.l.SessionBinderJobListener         : Persistence session is flushed.
+2017-02-11 03:31:08.837 DEBUG --- [eduler_Worker-3] g.p.q.l.SessionBinderJobListener         : Persistence session is flushed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
